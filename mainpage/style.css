@@ -1,0 +1,267 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+#header
+{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid rgb(32, 32, 32);
+}
+
+#header h3
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    
+}
+
+#header h2
+{
+    color: gray;
+    margin-left: 20px;
+
+}
+
+#header p
+{
+    color: grey;
+}
+
+#header i
+{
+    color: gray;
+}
+
+.headertext 
+{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.headertext p 
+{
+    color: grey;
+    margin: 0;
+    cursor: pointer;
+}
+
+.headertext p:hover 
+{
+    color: rgb(255, 255, 255)  !important;
+}
+
+.ri-checkbox-blank-line
+{
+    border-color: rgb(52, 156, 52);
+    color: rgb(52, 156, 52);
+    background-color: rgb(52, 156, 52);
+
+}
+
+#searchbar
+{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 450px;
+    border: 3px solid rgb(255, 2 55, 255);
+}
+
+#searchbar input::placeholder
+{
+    color: rgb(255, 255, 255)"?bn "
+}
+
+#searchbar i
+{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#searchbar input
+{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 15px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+
+.icons i
+{
+    font-size: 24px;
+    margin-left: 30px;
+    color: grey;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#user
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#user i
+{
+    font-size: 25px;
+    color: gray;
+}
+
+.track
+{
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 15s linear infinite;
+    color: grey;
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+
+
+.marquee
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes scroll 
+{
+     from
+    {
+        transform: translateX(100%);
+    }
+
+    to
+    {
+        transform: translateX(-100%);
+    }
+}
+
+#mainhero p
+{
+    color: rgb(255, 255, 255);
+}
+
+#mainhero h1
+{
+    color: white;
+}
+
+#mainhero
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    margin-top: 50px;
+}
+
+#herotitle
+{
+    max-width: 500px;
+}
+
+#mainhero img
+{
+    width: 350px;
+    height: 350px;
+}
+
+#mainhero button
+{
+    height: 45px;
+    width: 170px;
+    border-radius: 8px;
+}
+
+#b1
+{
+    background-color: rgb(0, 255, 0);
+}
+
+#b1:hover
+{
+    background-color: green;
+}
+
+#b2
+{
+    background-color: gray;
+}
+
+#b2:hover
+{
+    background-color: white;
+}
+
+#page2
+{
+    padding: 80px;
+}
+
+.skill-title
+{
+    text-align: center;
+}
+
+.skill-title h1
+{
+    color: white;
+}
+
+.skill-title p
+{
+    color: rgb(255, 255, 255);
+}
+
+
+.skill-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+.skill-card
+{
+    width: 220px;
+    height: 180px;
+    background-color: rgb(20,20,20);
+    border: 1px solid rgb(50,50,50);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
