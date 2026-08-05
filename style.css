@@ -330,3 +330,70 @@ a
 {
     background-color: rgb(0,255,100);
 }
+
+footer
+{
+    background-color: rgb(15,15,15);
+    border-top: 1px solid rgb(50,50,50);
+    padding: 50px 80px 20px;
+    color: white;
+}
+
+
+.footer-container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.footer-section h2
+{
+    color: white;
+}
+
+
+.footer-section h3
+{
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.footer-section p
+{
+    color: grey;
+    cursor: pointer;
+}
+
+
+.footer-section p:hover
+{
+    color: white;
+}
+
+
+.social-icons i
+{
+    font-size: 28px;
+    color: grey;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.social-icons i:hover
+{
+    color: rgb(0,255,0);
+}
+
+
+.footer-bottom
+{
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(50,50,50);
+    text-align: center;
+    color: grey;
+}
