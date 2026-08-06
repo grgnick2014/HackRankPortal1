@@ -331,6 +331,22 @@ a
     background-color: rgb(0,255,100);
 }
 
+.communitysection
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#calltoaction
+{
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
 footer
 {
     background-color: rgb(15,15,15);
